@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link  rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0;
+      font-family: "Figtree", sans-serif;
+    }
+    .back-end{
+      background-color:hsl(0, 0%, 8%);
+      width:100%;
+      height:100vh;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .inside-end{
+      background-color:  hsl(0, 0%, 12%);
+      width:280px;
+      border-radius: 8px;
+      padding-bottom: 20px;
+      
+    }
+    
+    .profile-picture{
+      width:50px;
+      height:50px; 
+      margin-top:30px;
+      border-radius: 50%;
+      
+    }
+     .image{
+      display: flex;
+      justify-content: center;
+      
+      
+    } 
+    .name{
+     color: hsl(0, 0%, 100%);
+     text-align: center;
+     font-weight:700;
+     font-size: 20px;
+     margin-bottom: 6px;
+      
+    }
+    .place{
+      color:hsl(75, 94%, 57%);
+     text-align: center;
+      font-size: 10px;
+      margin-top:0px;
+    }
+    .job{
+      color:rgb(215, 206, 206);
+
+      font-size: 12px;
+     text-align: center;
+     margin-top:20px; 
+     margin-bottom: 20px; 
+    }
+    button{
+      width:200px;
+      display: block;
+      margin:10px auto;
+      font-size: 12px;
+      background-color: hsl(0, 0%, 20%);
+      color: hsl(0, 0%, 100%);
+      border:none;
+      padding:8px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    button:hover{
+      background-color: hsl(75, 94%, 57%);
+      color:  hsl(0, 0%, 8%);
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="back-end">
+    <div class="inside-end">
+      <div class="image"><img src="avatar-jessica.jpeg" class="profile-picture"></div>
+      <p class="name">Jessica Randall</p>
+      <p class="place">London, United Kingdom</p>
+      <p class="job">"Front-end developer and avid reader."</p>
+      <button>GitHub</button>
+      <button>Frontend Mentor</button>
+      <button>LinkedIn</button>
+      <button>Twitter</button>
+      <button>Instagram</button>
+    </div>
+    
+  </div>
+</body>
+</html>
